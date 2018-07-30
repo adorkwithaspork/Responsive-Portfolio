@@ -218,6 +218,18 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
 
+  .container {
+    padding: 0 20px;
+    max-width: 768;
+  }
+
+  #main-container {
+    padding-top: 130px;
+  }
+
+  .main-section {
+    max-width: 420px;;
+  }
 
 }
 
@@ -227,8 +239,8 @@ input[type=submit] {
     background: #4aaaa5
   }
 
-  wrapper {
-    width: 600px;
+  .main-section {
+    max-width: 100%;
   }
 
 }
